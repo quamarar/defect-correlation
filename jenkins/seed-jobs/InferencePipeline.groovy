@@ -32,4 +32,4 @@ multibranchPipelineJob('ACE_ModelOps/Quality-bu/Inference') {
         }
      }
    }
-}
+
