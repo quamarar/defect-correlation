@@ -23,7 +23,7 @@ multibranchPipelineJob('ACE_ModelOps/Quality-bu/Inference') {
     }
         factory {
             workflowBranchProjectFactory {
-                scriptPath('jenkins/pipelines/Inference.Jenkinsfile')')
+                scriptPath('jenkins/pipelines/Inference.Jenkinsfile')
             }
         }
     orphanedItemStrategy {
