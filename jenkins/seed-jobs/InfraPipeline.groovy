@@ -3,8 +3,8 @@ folder('ACE_ModelOps') {
     description('Folder for ACE_ModelOps')
 }
 
- folder('ACE_ModelOps/Quality-bu/quality-mlops-defect-corelation-and-prediction') {
-    multibranchPipelineJob('ACE_ModelOps/Quality-bu/quality-mlops-defect-corelation-and-prediction/seed-jobs') {
+ folder('ACE_ModelOps/Quality-bu') {
+    multibranchPipelineJob('ACE_ModelOps/Quality-bu/seed-jobs') {
      branchSources {
       branchSource {
         source {
