@@ -4,7 +4,7 @@ multibranchPipelineJob('ACE_ModelOps/Quality-bu/Inference') {
         source {
          git {
           id('sample-app')
-          remote('https://gitlab.com/tarandeepsingh009/infrastructure.git')
+          remote('https://github.com/quamarar/defect-correlation.git')
           credentialsId('gitlab-token')
           }
         }
