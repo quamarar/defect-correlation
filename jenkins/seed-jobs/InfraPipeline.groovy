@@ -1,4 +1,4 @@
-folder('ACE_ModelOps') {
+folder('ACE_ModelOps/Quality-bu') {
     displayName('ACE_ModelOps')
     description('Folder for ACE_ModelOps')
 }
