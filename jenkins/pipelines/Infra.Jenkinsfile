@@ -10,13 +10,7 @@ pipeline {
                 }
             }
         }
-        stage('TerraformValidate') {
-            steps{
-                dir('infra') {
-                    sh "terraform validate"
-                }
-            }
-        }  
+  
         stage('Terraformplan') {
             steps{
                 dir('infra') {
