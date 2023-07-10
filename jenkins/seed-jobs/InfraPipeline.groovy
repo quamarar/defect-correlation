@@ -1,10 +1,10 @@
-folder('ACE_ModelOps/Quality-bu') {
-    displayName('ACE_ModelOps/Quality-bu')
+folder('ACE_ModelOps') {
+    displayName('ACE_ModelOps')
     description('Folder for ACE_ModelOps')
 }
 
- folder('ACE_ModelOps/Quality-bu/defect') {
-    multibranchPipelineJob('ACE_ModelOps/Quality-bu/defect/infra') {
+ folder('ACE_ModelOps/Quality-bu') {
+    multibranchPipelineJob('ACE_ModelOps/Quality-bu/infra') {
      branchSources {
       branchSource {
         source {
