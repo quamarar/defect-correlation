@@ -18,14 +18,6 @@ pipeline {
                 }
             }
         }
-
-        stage('apply') {
-            steps {
-                dir('infra') {
-                sh 'terraform apply -no-color -input=false tfplan'
-            }
-          }
-        } 
        
     }
  
