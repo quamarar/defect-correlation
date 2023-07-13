@@ -14,9 +14,9 @@ terraform {
 
 
 
-provider “aws” {
-  region = “us-east-2”
+provider "aws" {
+  region = "us-east-2"
   assume_role {
-    role_arn = “arn:aws:iam::667027238366:role/cross-account-role”
+    role_arn = "arn:aws:iam::667027238366:role/cross-account-role"
   }
 }
